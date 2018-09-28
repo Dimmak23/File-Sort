@@ -2,21 +2,18 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <string.h>
- 
-// Declare a struct with names and scores
+
 typedef struct
 {
     char *name;
     int score;
 } Entry;
 
-int main()
-{
-    // Declare identificators for Loops and temporary stores
+int main(){
+ 
     int i, j, temp;
     char empo[4];
     
-    // Deaclare variables for counting rows in data the file
     int ch = 0;
     int entryCount = 0;
 
